@@ -8,11 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "patrick" && password === "admin") {
-        alert("You have successfully logged in.");
-location.href = "site1.html"}
-else if (username === "admin" && password === "admin") {
-    alert("You have successfully logged in.");
-location.href = "headadmin.html"
+    if (username === "member1" && password === "member") {
+        location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     }
 })
