@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "patrick" && password === "admin") {
         alert("You have successfully logged in.");
 location.href = "site1.html"}
-if (username === "admin1" && password === "admin") {
+else if (username === "admin1" && password === "admin") {
     alert("You have successfully logged in.");
 location.href = "headadmin.html"
     }
