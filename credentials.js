@@ -9,9 +9,10 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "patrick" && password === "admin") {
-location.href = "site1.html"
-    }
-    if (username ==="admin1" && password === "admin") {
-        location.href = "headadmin.html"
+        alert("You have successfully logged in.");
+location.href = "site1.html"}
+if (username === "admin1" && password === "admin") {
+    alert("You have successfully logged in.");
+location.href = "headadmin.html"
     }
 })
