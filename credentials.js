@@ -8,8 +8,8 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "member1" && password === "member") {
-        location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    if (username ==="admin" && password === "admin") {
+        location.href = "\admin.html";
     }
     else if (username ==="Member1" && password === "Member") {
         location.href = "https://site-indol-chi.vercel.app/";
