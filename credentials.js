@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
     if (username ==="admin" && password === "admin") {
         location.href = "\admin.html";
     }
-    else if (username ==="Member1" && password === "Member") {
-        location.href = "https://site-indol-chi.vercel.app/";
+    else if (username ==="591416926886953009" && password === "591416926886953009") {
+        location.href = "591416926886953009.html";
     }
 })
