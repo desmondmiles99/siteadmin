@@ -8,10 +8,12 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username ==="admin" && password === "admin") {
-        location.href = "\level2.html";
-  
-    else if (username ==="591416926886953009" && password === "591416926886953009") {
-        location.href = "591416926886953009.html";
+    if (username ==="admin" && password === "admin")
+    {
+        location.href = "\level2.html"
+    } else if (username ==="admin1" && password === "admin2") {
+        location.href = "591416926886953009.html"
     }
-})
+        
+    }
+)
