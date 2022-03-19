@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username ==="admin" && password === "admin")
     {
-      <a  location.href = "\level2.html">pong</a>
+      <a  location.href = "\level2.html">level2.html</a>
     } else if (username ==="admin1" && password === "admin2") {
         location.href = "591416926886953009.html"
     }
